@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F8F8F8 !important ;
+}
+
+
+.navbar{
+  background-color: #F8F8F8 !important ;
+}
+
+
+
+/* ////////////////////////// 
+            Home
+//////////////////////////// */
+
+.home-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  height: 90vh;
+  background: linear-gradient(to right, #e6e3e300 50%, #ffffff 50%);
+}
+.homediv p{
+  color: #49b6ff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+}
+
+.homediv h1{
+  font-weight: bold;
+}
+
+
+
+/* ////////////////////////// 
+            About
+//////////////////////////// */
+
+
+.emp-profile{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  vertical-align: middle;
+}
+
+.emp-profile form{
+  background-color: white;
+  width: 50%;
+  height: 50vh;
+}
+
+.row img{
+  width: 150px;
+  height: 180px;
+  margin: 20px;
+}
+
+.profile-edit-button{
+  position: relative;
+  top: 40px;
+  left: -30px;
+}
+
+.profilehead{
+  margin-top: 20px;
+}
+.profile-work{
+  margin: 20px;
+}
+
+.nav-tabs{
+  border:none !important;
+}
+
+.blue-text{
+  color: #49b6ff;
+}
+
+.first-child{
+  margin-top: -225px !important;
+}
+
+.border-bottom .nav-link{
+  color: black;
+  border: none !important;
+  border-bottom:1px solid gray  !important;
+}
+
+.border-bottom a{
+  font-weight: 600;
+}
+
+.nav-tabs .active{
+  color: #49b6ff !important;
+  border-bottom: 1px solid #49b6ff  !important;
+}
+ 
+
+
+
+/* ////////////////////////// 
+            register
+//////////////////////////// */
+
+.signup{
+  display: flex;
+  width: 50%;
+  margin: 150px auto;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.container{
+  flex: 1;
+}
+
+.container h2{
+  text-align: center;
+  margin: 30px 0;
+}
+
+.container label{
+  flex: 1;
+  background-color: #000000;
+  text-align: center;
+  padding: 5px;
+  margin-right: 20px;
+  color: white;
+}
+
+.container input{
+  flex: 3;
+  border: none;
+  border-bottom: black 1px solid;
+  margin-right: 50px;
+  font-size: 18px;
+  
+}
+
+.container input:last-child(){
+  border: none;
+}
+
+.form-group{
+  display: flex;
+  margin-left: 50px;
+  position: relative;
+}
+
+.form-button{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.form-submit{
+  border: none;
+  background-color: rgb(0, 0, 0);
+  padding: 10px 0;
+  color: white;
+  font-weight: bold;
+}
+
+.imgcontainer{
+  flex: 1;
+  background-color: gold;
+  border-radius: 10px;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+
+
+/* ////////////////////////// 
+            login
+//////////////////////////// */
+
+
+.login{
+  margin-bottom: 70px !important;
+}
+
+
+
+/* ////////////////////////// 
+            contact
+//////////////////////////// */
+
+.contatcontainer{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.contact-info-content{
+  padding: 10px 20px;
+  background-color: white;
+  width: 300px;
+}
+
+.contact-info-text{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.contact-info-title{
+  font-weight: 800;
+  text-align: center;
+}
+
+.contactcontainer{
+  width: 50%;
+  background-color: white;
+  margin: 100px auto;
+  padding-top: 20px;
+}
+
+.contact-form-title{
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-form-name{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-form-text{
+  display: flex;
+}
+
+#message{
+  resize: vertical;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.contact-form-button{
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+#cbutton{
+  margin: 0 auto;
+
+}
+
+
+
+
+
+/* ////////////////////////// 
+            Error
+//////////////////////////// */
+
+.error-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  vertical-align: middle;
+  height: 90vh;
+}
+
+.error{
+  font-size: 300px;
+  color: rgba(128, 128, 128, 0.157);
+}
+
+.error-text h1{
+  font-size: 5rem !important;
+  position: relative;
+  top: -230px;
+}
+
+.error-button{
+  color: #000000;
+  padding: 10px 20px;
+  background-color: #fff;
+  border:1px solid #49b6ff;
+  position: relative;
+  top: -100px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.error-button:hover{
+  background-color: #49b6ff;
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  text-decoration: none;
+}
